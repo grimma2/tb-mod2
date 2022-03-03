@@ -62,8 +62,10 @@ init python:
 
 label start:
 
+    # Здесь передаём кофигурацию для экрана
     call screen bg_screen(500, 130, 0.8, 0.8)
 
+    # Обрабатывается конечный результат
     'return result: [_return]'
 
 
